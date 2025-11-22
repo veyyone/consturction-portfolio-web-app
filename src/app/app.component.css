@@ -1,0 +1,129 @@
+.about-container {
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .title {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 1.5em;
+  }
+  
+  .section-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-section,
+  .services-section,
+  .contact-section {
+    margin: 50px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .services-section {
+    background: #f7f7f7;
+  }
+  
+  .service-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 4px 8px rgba(182, 62, 62, 0.1);
+  }
+  
+  .contact-button {
+    background: #0072ff;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2em;
+  }
+  
+  .contact-button:hover {
+    background: #005bb5;
+  }
+  
+  /* Mobile Responsiveness */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 50px 20px;
+    }
+  
+    .title {
+      font-size: 2.5em;
+    }
+  
+    .subtitle {
+      font-size: 1.2em;
+    }
+  
+    .section-title {
+      font-size: 1.8em;
+    }
+  
+    .services-section {
+      padding: 15px;
+    }
+  
+    .service-cards {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .service-card {
+      width: 80%;
+      margin-bottom: 20px;
+    }
+  
+    .contact-button {
+      font-size: 1em;
+      padding: 10px 20px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .hero-section {
+      padding: 40px 20px;
+    }
+  
+    .title {
+      font-size: 2em;
+    }
+  
+    .subtitle {
+      font-size: 1.1em;
+    }
+  
+    .section-title {
+      font-size: 1.6em;
+    }
+  
+    .contact-button {
+      font-size: 0.9em;
+      padding: 8px 16px;
+    }
+  }
+  
