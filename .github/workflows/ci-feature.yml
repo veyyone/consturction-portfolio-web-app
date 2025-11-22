@@ -22,4 +22,4 @@ jobs:
         run: npm install
 
       - name: Build angular app (CI only)
-        run: npm run build -- --configuration developments
+        run: npm run build -- --configuration development
